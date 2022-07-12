@@ -1,0 +1,114 @@
+body{
+    font-family: Roboto;
+    font-size: 1.3rem;
+    padding: 0px;
+    margin: 0px;
+}
+.nevbar{
+    background: black;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.nevbar > img {
+    width: fit-content;
+    height: 6vh;
+    margin: 10px 4px;
+    display: inline;
+}
+.nevbar > pre{
+    display: block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+}
+.container{
+    overflow-y: scroll;
+    width: 70%;
+    height: 80vh;
+    background-color:red;
+    background: linear-gradient(rgb(0, 0, 0),rgb(86, 86, 86));
+    margin: 10px auto 5px auto;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px black;
+}
+.chat{
+    font: 500px;
+    box-shadow: 5px 5px 10px rgb(167, 163, 163);
+    padding: 4px 5px;
+    margin: 8px 6px;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px 30px 0px 30px
+}
+.center{
+    float: left;
+    clear: both;
+    font-size: .9rem;
+    color:#fff;
+    background-color: none;
+    border-radius: 30px 30px 0px 30px
+}
+.right{
+    float: right;
+    clear: both;
+    background: linear-gradient(rgb(53, 134, 85),rgb(182, 228, 168));
+    border-radius: 30px 30px 30px 0px
+}
+
+.divInp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 1.3rem;
+}
+.divInp > input {
+    width: 56%;
+    margin-right: 1%;
+    padding:.8%;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(167, 163, 163);
+}
+.divInp > button {
+    width: 10%;
+    padding:.8%;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 600;
+    box-shadow: 5px 5px 10px rgb(167, 163, 163);
+    background:linear-gradient(rgb(0, 0, 0),rgb(86, 86, 86));
+    color: #fff;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 12px;
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(0, 0, 0),rgb(86, 86, 86));
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgb(86, 86, 86),rgb(0, 0, 0));
+  }
